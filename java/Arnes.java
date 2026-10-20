@@ -19,7 +19,7 @@ public class Arnes {
     public static final int REPS = 5;
     public static final long LIMITE_MS = 300_000L;
     public static final Path DATOS = Paths.get("datos");
-    public static final Path CSV = Paths.get("resultados", "ordenamiento_comparativos.csv");
+    public static Path CSV = Paths.get("resultados", "ordenamiento_comparativos.csv");
     static final String ENCABEZADO =
         "algoritmo,lenguaje,variante,n,t1_ns,t2_ns,t3_ns,t4_ns,t5_ns,promedio_ns,desviacion_ns,tipo,observacion";
 
