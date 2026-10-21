@@ -1,0 +1,7 @@
+Algoritmo,Inicio,Inicio_tipo,Centro,Centro_tipo,Final,Final_tipo
+Lineal,92.482,medido,10159057.008,medido,21516544.377,medido
+Binaria,1278.131,medido,1522.032,medido,1415.744,medido
+Ternaria,1151.434,medido,1449.201,medido,1326.063,medido
+Saltos (Jump),231.524,medido,32183.576,medido,91788.273,medido
+Interpolación,194.082,medido,518.118,medido,188.135,medido
+Exponencial,53.889,medido,1538.898,medido,2070.581,medido
