@@ -1,0 +1,7 @@
+algoritmo,lenguaje,variante,n,t1_ns,t2_ns,t3_ns,t4_ns,t5_ns,promedio_ns,desviacion_ns,tipo,observacion
+Bucket Sort,Java,uniforme,100000,6675250,10223750,7062958,6711208,5127000,7160033.2,1868519.9,medido,experimento adicional
+Bucket Sort,Java,concentrado,100000,2445154792,2294046709,2447973292,2253200292,2087491333,2305573283.6,150163485.3,medido,experimento adicional
+Merge Sort,Java,uniforme,100000,7492250,7335709,7476209,7372917,7672666,7469950.2,131402.3,medido,experimento adicional
+Merge Sort,Java,concentrado,100000,6330667,6221166,6160625,6335916,6220125,6253699.8,76700.9,medido,experimento adicional
+Radix Sort,Java,8_digitos,100000,3368958,3252666,2941584,2915875,2913083,3078433.2,216365.0,medido,experimento adicional
+Radix Sort,Java,16_digitos,100000,5905375,5695083,5698167,5728084,5513125,5707966.8,139283.9,medido,experimento adicional
