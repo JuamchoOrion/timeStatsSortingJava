@@ -38,7 +38,7 @@ BUSQUEDAS = ["Lineal", "Binaria", "Ternaria", "Saltos", "Interpolacion", "Expone
 COLORES = ["#1f77b4", "#d62728", "#2ca02c", "#9467bd", "#ff7f0e", "#8c564b"]
 VARIANTES = [("aleatorio", "Aleatoria"), ("asc", "Ascendente"), ("desc", "Descendente")]
 CSV_P1 = ["ordenamiento_comparativos.csv", "ordenamiento_no_comparativos.csv"]
-CSV_P2 = ["busqueda.csv"]
+CSV_P2 = ["busqueda_java.csv", "busqueda_python.csv"]
 
 
 def cargar(archivos):
@@ -53,7 +53,7 @@ def cargar(archivos):
             for r in csv.DictReader(f):
                 prom = float(r["promedio_ns"]) if r["promedio_ns"] else None
                 desv = float(r["desviacion_ns"]) if r["desviacion_ns"] else None
-                datos[(r["algoritmo"], r["lenguaje"], r["variante"], int(r["n"]))] = (
+                datos[(r["algoritmo"], r["lenguaje"].strip().capitalize(), r["variante"], int(r["n"]))] = (
                     prom, desv, r["tipo"], r["observacion"])
     return datos
 
